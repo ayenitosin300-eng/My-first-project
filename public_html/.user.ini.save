@@ -1,0 +1,24 @@
+; Enable error logging
+php_admin_flag[log_errors] = on
+
+; Set memory and execution limits
+php_admin_value[memory_limit] = 128M
+php_admin_value[max_execution_time] = 300
+php_admin_value[max_input_time] = 300
+
+; Set timezone to Dubai
+php_admin_value[date.timezone] = Asia/Dubai
+
+; Configure file upload limits
+php_admin_value[post_max_size] = 50M
+php_admin_value[upload_max_filesize] = 50M
+php_admin_value[max_input_vars] = 3000
+php_admin_value[max_file_uploads] = 20
+
+; Control error display (off for production)
+php_admin_value[display_errors] = Off
+
+; Disable potentially dangerous PHP functions
+php_admin_value[disable_functions] = getmyuid,passthru,leak,listen,diskfreespace,tmpfile,link,dl,system,highlight_file,source,show_source,fpassthru,virtual,posix_ctermid,posix_getcwd,posix_getegid,posix_geteuid,posix_getgid,posix_getgrgid,posix_getgrnam,posix_getgroups,posix_getlogin,posix_getpgid,posix_getpgrp,posix_getpid,posix_getppid,posix_getpwuid,posix_getrlimit,posix_getsid,posix_getuid,posix_isatty,posix_kill,posix_mkfifo,posix_setegid,posix_seteuid,posix_setgid,posix_setpgid,posix_setsid,posix_setuid,posix_times,posix_ttyname,posix_uname,proc_open,proc_close,proc_nice,proc_terminate,escapeshellcmd,ini_alter,popen,pcntl_exec,socket_accept,socket_bind,socket_clear_error,socket_close,socket_connect,symlink,socket_listen,socket_create,socket_create_listen,socket_read,socket_create_pair,stream_socket_server,shell_exec,exec,putenv
+ots where o copy thag one om pasting kt 
+

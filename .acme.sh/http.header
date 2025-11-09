@@ -1,0 +1,11 @@
+HTTP/2 200 
+server: nginx
+date: Thu, 06 Nov 2025 21:46:00 GMT
+content-type: application/pem-certificate-chain
+content-length: 4132
+replay-nonce: FSCWQB2NUNOru5W6LgMDA3XfH1oElRQpCdSsVvmvz6A
+cache-control: max-age=0, no-cache, no-store
+access-control-allow-origin: *
+link: <https://acme.zerossl.com/v2/DV90>;rel="index"
+strict-transport-security: max-age=31536000; includeSubDomains
+

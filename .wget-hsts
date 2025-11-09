@@ -1,0 +1,10 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+nodejs.org	0	1	1762599704	31536000
+bin.equinox.io	0	1	1762644794	31536000
+ngrok.com	0	1	1762640252	63072000
+www.python.org	0	1	1762600118	63072000
+www.zlib.net	0	1	1762599907	63072000
+github.com	0	1	1762523442	31536000
+zlib.net	0	1	1762599974	63072000
